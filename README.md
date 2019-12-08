@@ -7,7 +7,7 @@ Given a board with m by n cells, each cell has an initial state live (1) or dead
 3.Any live cell with more than three live neighbors dies, as if by over-population.
 4.Any dead cell with exactly three live neighbors becomes a live cell, as if by reproduction.
 
-In the project, our team implemented the UI which you can see the progress vividly by running the code in the src/main/java/edu/neu/coe/info6205/ui/UIStart.java.
+Our team implemented the UI which you can see the progress vividly by running the code in the edu.neu.coe.info6205.ui.UIStart. There are two Rule options, Rule 1 and Rule 2. Rule 1 would run the pre-selected most fit individual. Rule 2 would run the entire selection process and display the most fit individual on the UI panel. When hit the "start" button in the UI panel, you can see the process of change. 
 And there is also console display without using the UI by running the code in the src/main/java/edu/neu/coe/info6205/geneticAlgorithm/AllOnesGA.java.
 In this program, our team also implemented the multithread to accelerate the progress of the outcome.
 As for the testing part, we use unit test to do the testing where you can find all the code in src/test/java/Genetic_test.
